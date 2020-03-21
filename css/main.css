@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wf {
+    outline: 1px solid black;
+}
+
+body {
+    background-color: #f4f5f6;
+    color: #000;
+}
+
+main {
+    padding: 0;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.container {
+    max-width: 1320px;
+    min-height: 1000px;
+    background-color: #fff;
+    color: #000;
+}
+
+.row {
+    /* min-height: 200px; */
+}
+
+.top-navbar {
+    background-color: #ff0000;
+    width: 100%;
+    height: 95px;
+    padding: 20px 10px 15px;
+    margin: auto;
+}
+
+.weather {
+    list-style: none;
+}
+
+.weather-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.weather-item, .weather-link {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.weather-item time {
+    font-weight: 400;
+}
+
+.weather-item button:nth-child(1) {
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 3px;
+}
+
+.weather-item button:nth-child(2) {
+    background-color: #fff;
+    border: none;
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 5px;
+}
+
+.newsweek svg {
+    width: 396px;
+    height: 60px;
+}
+
+.my-country {
+    padding-bottom: 15px;
+}
+
+.sub-btn {
+    padding-top: 35px;
+}
+
