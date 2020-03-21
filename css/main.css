@@ -90,5 +90,52 @@ a:hover {
 
 .sub-btn {
     padding-top: 35px;
+    margin-left: 55px;
 }
+
+.navbar {
+    padding: 5px 0;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 10px 15px;
+    border-left: 1px solid #d9d9d9;
+    font-size: 18px;
+}
+
+.nav-item:nth-child(1) {
+    border-left: none;
+}
+
+.nav-item:nth-child(12) {
+    border-left: none;
+}
+
+.nav-item a {
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #ff0000;
+}
+
+.nav-item input {
+    width: 100px;
+    color: #333;
+}
+
+.nav-item i {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
 
