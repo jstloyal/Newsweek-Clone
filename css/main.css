@@ -12,6 +12,8 @@
 body {
     background-color: #f4f5f6;
     color: #000;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 main {
@@ -24,13 +26,16 @@ a:hover {
 
 .container {
     max-width: 1320px;
-    min-height: 1000px;
     background-color: #fff;
     color: #000;
 }
 
-.row {
-    /* min-height: 200px; */
+#main-container {
+    height: 2750px;
+}
+
+.nav-header {
+    padding: 0;
 }
 
 .top-navbar {
@@ -95,6 +100,7 @@ a:hover {
 
 .navbar {
     padding: 5px 0;
+    border-bottom: 1px solid rgba(3,3,3,.4);
 }
 
 .page-nav {
@@ -123,7 +129,7 @@ a:hover {
     font-weight: bold;
 }
 
-.nav-item a:hover {
+.nav-item a:hover, .float-head a:hover {
     color: #ff0000;
 }
 
@@ -136,6 +142,235 @@ a:hover {
     font-size: 18px;
     font-weight: 400;
 }
+
+.image img {
+    width: 100%;
+    height: 228px;
+}
+
+.block-title {
+    font-family: inherit;
+    font-size: 18px;
+    color: rgba(3,3,3,.4);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.category {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    top: 230px;
+    padding: 3px 10px 5px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.category a {
+    color: #ff0000;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 a {
+    color: inherit;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+article h3 a:hover, .float-right h4 a:hover {
+    color: #000;
+    border-bottom: 1px solid #ff0000; 
+}
+article h3 {
+    width: 100%;
+}
+
+.image-a img {
+    width: 100%;
+    height: 311px;
+}
+
+.category-a1 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    top: 313px;
+    padding: 3px 10px 5px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.category-a1 a {
+    color: #ff0000;
+}
+
+.block-title1 {
+    padding: 0;
+    color: rgba(3,3,3,.4);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.block-title2 {
+    padding: 10px 0;
+    color: rgba(3,3,3,.4);
+    font-weight: 600;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(3,3,3,.4);
+}
+
+.image-culture img {
+    width: 100%;
+    height: 155px;
+    margin-bottom: 5px;
+}
+
+.category-culture {
+    position: absolute;
+    top: 132px;
+    padding: 2px 6px 1px;
+    background-color: #c2d4d7;
+}
+
+.culture-head a {
+    color: #333;
+    font-size: 18px;
+}
+
+.summary1 {
+    font-size: 14px;
+    color: rgba(3,3,3,.4);
+}
+
+.clearfix {
+    padding: 10px 0 15px;
+    border-bottom: 1px solid rgba(3,3,3,.4);
+}
+
+.clearfix:nth-child(12) {
+    border-bottom: none;
+}
+
+#left-flow img, .float-left .side-pics {
+    width: 95px;
+    height: 95px;
+    margin-left: 0;
+}
+
+.float-right {
+    width: 76%;
+}
+
+.float-right h4 a {
+    color: #000;
+}
+
+.float-left img {
+    width: 63px;
+    height: 63px;
+    margin-left: 20px;
+}
+
+.sidebar {
+    padding: 0 20px;
+}
+
+.block-title3 {
+    color: rgba(3,3,3,.4);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 30px 0 20px;
+}
+
+#clearfix-side {
+    border-top: 3px solid #ff0000;
+    border-bottom: none;
+    padding-bottom: 25px;
+}
+
+#clearfix-side1 {
+    border-top: 3px solid #3895d3;
+    margin-top: 110px;
+}
+
+#clearfix-side .float-right a:hover, #clearfix-side1 .float-right a:hover {
+    border-bottom: none;
+}
+
+#clearfix-side img, #clearfix-side1 img {
+    width: 75px;
+    height: 80px;
+}
+
+.author1, .author2 {
+    border-top: 1px double rgba(3,3,3,.4);
+    padding-top: 5px;
+}
+
+.author1 a:hover, .author2 a:hover {
+    color: #000;
+}
+
+.text-uppercase {
+    color: #000;
+}
+
+#author-img {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: 600px;
+    right: 50px;
+}
+
+#author-img2 {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: 840px;
+    right: 50px;
+}
+
+#author-vs {
+    position: absolute;
+    right: 50%;
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 10px;
+    width: 10%;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.float-right .side-hover:hover {
+    border-bottom: none;
+    color: #ff0000;
+}
+
+#block-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 40px;
+}
+
+#last-clear {
+    border-bottom: none;
+}
+
+#my-right-flow {
+    width: 72%;
+}
+
+.my-sticky {
+    position: sticky;
+    top: 0;
+}
+
 
 
 
