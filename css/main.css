@@ -5,9 +5,9 @@
   padding: 0;
 }
 
-.wf {
+/* .wf {
   outline: 1px solid black;
-}
+} */
 
 body {
   background-color: #f4f5f6;
@@ -17,7 +17,12 @@ body {
 }
 
 main {
-  padding: 0;
+  padding: 0 0 40px 0;
+}
+
+#main-container {
+  margin-top: 2px;
+  padding-top: 20px;
 }
 
 a:hover {
@@ -29,10 +34,6 @@ a:hover {
   background-color: #fff;
   color: #000;
 }
-
-/* #main-container {
-  height: 2750px;
-} */
 
 .nav-header {
   padding: 0;
@@ -101,7 +102,6 @@ a:hover {
 
 .navbar {
   padding: 5px 0;
-  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
 }
 
 .page-nav {
@@ -188,6 +188,11 @@ article h3 a:hover,
   color: #000;
   border-bottom: 1px solid #ff0000;
 }
+
+.cover-img2 h3 a:hover {
+  border-bottom: 1px solid #ff0000;
+}
+
 article h3 {
   width: 100%;
 }
@@ -389,6 +394,16 @@ article h3 {
     padding: 30px 0 15px;
 }
 
+.mag-head1 {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ff0000;
+  border-top: 1px solid rgba(3, 3, 3, 0.4);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
 .icon-n img {
     width: 35px;
     height: 25px;
@@ -465,7 +480,8 @@ article h3 {
     padding-top: 10px;
 }
 
-.cover-img h5 a {
+.cover-img h5 a, 
+.cover-img2 h3 a {
     color: #000;
     font-size: 20px;
 }
@@ -478,3 +494,18 @@ article h3 {
   color: #000;
 }
 
+#us-section {
+  margin-top: 100px;
+}
+
+.the-cover2 {
+  margin-top: 20px;
+}
+
+#pics2 {
+  height: 63px;
+}
+
+.business-section {
+  margin-top: 30px;
+}
