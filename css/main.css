@@ -526,6 +526,7 @@ footer {
 .social1 li,
 .social2 a,
 .social2 li,
+.footer-up,
 strong {
   color: rgba(3, 3, 3, 0.6);
 }
@@ -534,8 +535,15 @@ strong {
   color: #3895d3;
 }
 
-.bottom-footer {
-  border-top: rgba(3, 3, 3, 0.4);
+hr {
+  width: 100%;
+  height: 0.4px;
+  background-color: rgba(3, 3, 3, 0.4);
+  margin-top: 0;
+}
+
+.top-footer {
+  margin-top: 0 !important;
 }
 
 .footer-up {
@@ -553,4 +561,9 @@ strong {
 
 .social2 li {
   padding-left: 5px;
+}
+
+.social2 a:hover,
+.social1 a:hover {
+  color: #000;
 }
