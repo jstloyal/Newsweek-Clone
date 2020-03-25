@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-/* .wf {
-  outline: 1px solid black;
-} */
-
 body {
   background-color: #f4f5f6;
   color: #000;
@@ -89,6 +85,11 @@ a:hover {
 .newsweek svg {
   width: 396px;
   height: 60px;
+}
+
+.newsweek2 svg {
+  width: 236px;
+  height: 35.52px;
 }
 
 .my-country {
@@ -508,4 +509,48 @@ article h3 {
 
 .business-section {
   margin-top: 30px;
+}
+
+footer {
+  margin-top: 2px;
+  padding-top: 30px;
+}
+
+.social-links {
+  list-style: none;
+  font-size: 24px;
+}
+
+.social-links a,
+.social1 a,
+.social1 li,
+.social2 a,
+.social2 li,
+strong {
+  color: rgba(3, 3, 3, 0.6);
+}
+
+.social-links a:hover {
+  color: #3895d3;
+}
+
+.bottom-footer {
+  border-top: rgba(3, 3, 3, 0.4);
+}
+
+.footer-up {
+  margin-top: 20px;
+}
+
+.social1,
+.social2 {
+  list-style: none;
+}
+
+.social1 a {
+  padding: 0 10px;
+}
+
+.social2 li {
+  padding-left: 5px;
 }
