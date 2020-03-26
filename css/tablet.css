@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-header {
+  display: none;
+  position: fixed;
+}
+
+.navigation-bar {
+  display: block;
+}
+
+.block-title3 {
+  margin-top: 50px;
+}
+
+.upper-area {
+  margin-top: 50px;
+}
+
+.my-right-flow {
+  width: 85%;
+}
+
+.author-vs {
+  width: 5%;
+  border-radius: 50%;
+}
+
+.art-tab {
+  width: 330px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.my-right-flow1,
+.float-head {
+  width: 87%;
+}
+
+.march-cover img {
+  height: 273px;
+}
+
+.cover-img img {
+  height: 205px;
+}
+
+.cover-img1 img {
+  height: 293.2px;
+}
+
+.cover1-fill {
+  top: 265px;
+}
+
+.my-right-flow {
+  width: 62%;
+}
+
+.cover-img2 .us-now {
+  height: 177.33px;
+}

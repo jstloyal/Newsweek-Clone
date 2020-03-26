@@ -4,9 +4,12 @@ Using Bootstrap to build a responsive website
 > How the project was done
 
 The Lay out shows the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
+Used Bootstrap4 for the page layout
+Use bootstrap for the responsiveness of the page
+Add some media Query to make it more responsive
 
 
-![screenshot](img/)
+![screenshot](img/Newsweekclone-desktop-view.png)
 
 ## Built With
 
@@ -64,6 +67,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Google
+- W3school.com
 
 ## 📝 License
 
