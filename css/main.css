@@ -21,6 +21,13 @@ main {
   padding-top: 20px;
 }
 
+article h3 a {
+  color: inherit;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 0;
+}
+
 a:hover {
   color: #fff;
 }
@@ -36,7 +43,7 @@ a:hover {
 }
 
 .top-navbar {
-  background-color: #ff0000;
+  background-color: #f00;
   width: 100%;
   height: 95px;
   padding: 20px 10px 15px;
@@ -65,7 +72,7 @@ a:hover {
 }
 
 .weather-item button:nth-child(1) {
-  background-color: #ff0000;
+  background-color: #f00;
   border: none;
   color: #fff;
   font-size: 18px;
@@ -73,26 +80,26 @@ a:hover {
   padding: 6px 3px;
 }
 
-#nav-flex1 button {
-  background-color: #ff0000;
-  border: none;
-  color: #fff;
-  font-weight: 600;
-}
-
 .weather-item button:nth-child(2) {
   background-color: #fff;
   border: none;
-  color: #ff0000;
+  color: #f00;
   font-size: 18px;
   font-weight: 500;
   padding: 6px 5px;
 }
 
+#nav-flex1 button {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
 #nav-flex2 button {
   background-color: #fff;
   border: none;
-  color: #ff0000;
+  color: #f00;
   font-weight: 600;
   padding-top: 4px;
   padding-left: 8px;
@@ -106,7 +113,7 @@ a:hover {
 .navigation-bar {
   position: fixed;
   top: 0;
-  background-color: #ff0000;
+  background-color: #f00;
   z-index: 1000;
   width: 100%;
   height: 50px;
@@ -172,9 +179,72 @@ a:hover {
   font-weight: bold;
 }
 
+.category a {
+  color: #f00;
+}
+
+article h3 a:hover,
+.float-right h4 a:hover,
+.cover-img1 h3 a:hover {
+  color: #000;
+  border-bottom: 1px solid #f00;
+}
+
+.author1 a:hover,
+.author2 a:hover {
+  color: #000;
+}
+
+.social-links a:hover {
+  color: #3895d3;
+}
+
+.category-a1 a {
+  color: #f00;
+}
+
+.culture-head a {
+  color: #333;
+  font-size: 18px;
+}
+
+.float-right h4 a {
+  color: #000;
+}
+
+.march-cover1 a {
+  color: #000;
+}
+
+.cover2-h a {
+  color: #f00;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.cover-img h5 a,
+.cover-img2 h3 a {
+  color: #000;
+  font-size: 20px;
+}
+
+.cover-img1 a {
+  color: #000;
+}
+
+.social-links a,
+.social1 a,
+.social1 li,
+.social2 a,
+.social2 li,
+.footer-up,
+strong {
+  color: rgba(3, 3, 3, 0.6);
+}
+
 .nav-item a:hover,
 .float-head a:hover {
-  color: #ff0000;
+  color: #f00;
 }
 
 .nav-item input {
@@ -209,30 +279,12 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.category a {
-  color: #ff0000;
-}
-
 article {
   margin-bottom: 20px;
 }
 
-article h3 a {
-  color: inherit;
-  font-size: 24px;
-  line-height: 24px;
-  margin-top: 0;
-}
-
-article h3 a:hover,
-.float-right h4 a:hover,
-.cover-img1 h3 a:hover {
-  color: #000;
-  border-bottom: 1px solid #ff0000;
-}
-
 .cover-img2 h3 a:hover {
-  border-bottom: 1px solid #ff0000;
+  border-bottom: 1px solid #f00;
 }
 
 article h3 {
@@ -251,10 +303,6 @@ article h3 {
   top: 313px;
   padding: 3px 10px 5px;
   background-color: rgba(255, 255, 255, 0.9);
-}
-
-.category-a1 a {
-  color: #ff0000;
 }
 
 .block-title1 h3 {
@@ -285,11 +333,6 @@ article h3 {
   background-color: #c2d4d7;
 }
 
-.culture-head a {
-  color: #333;
-  font-size: 18px;
-}
-
 .summary1 {
   font-size: 14px;
   color: rgba(3, 3, 3, 0.4);
@@ -315,10 +358,6 @@ article h3 {
   width: 76%;
 }
 
-.float-right h4 a {
-  color: #000;
-}
-
 .float-left img {
   width: 63px;
   height: 63px;
@@ -337,7 +376,7 @@ article h3 {
 }
 
 .clearfix-side {
-  border-top: 3px solid #ff0000;
+  border-top: 3px solid #f00;
   border-bottom: none;
   padding-bottom: 25px;
 }
@@ -362,11 +401,6 @@ article h3 {
 .author2 {
   border-top: 1px solid rgba(3, 3, 3, 0.4);
   padding-top: 5px;
-}
-
-.author1 a:hover,
-.author2 a:hover {
-  color: #000;
 }
 
 .text-uppercase {
@@ -405,7 +439,7 @@ article h3 {
 
 .float-right .side-hover:hover {
   border-bottom: none;
-  color: #ff0000;
+  color: #f00;
 }
 
 #block-title {
@@ -418,7 +452,8 @@ article h3 {
   border-bottom: none;
 }
 
-.my-right-flow1, .my-right-flow {
+.my-right-flow1,
+.my-right-flow {
   width: 70%;
 }
 
@@ -428,53 +463,49 @@ article h3 {
 }
 
 .mag-head {
-    font-family: inherit;
-    font-size: 20px;
-    font-weight: 900;
-    color: #000;
-    border-bottom: 1px solid rgba(3, 3, 3, 0.4);
-    padding: 30px 0 15px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  border-bottom: 1px solid rgba(3, 3, 3, 0.4);
+  padding: 30px 0 15px;
 }
 
 .mag-head1 {
   font-family: inherit;
   font-size: 20px;
   font-weight: 900;
-  color: #ff0000;
+  color: #f00;
   border-top: 1px solid rgba(3, 3, 3, 0.4);
   margin-top: 30px;
   padding-top: 20px;
 }
 
 .icon-n img {
-    width: 35px;
-    height: 25px;
+  width: 35px;
+  height: 25px;
 }
 
 .march-cover img {
-    height: 386px;
-    width: 100%;
+  height: 386px;
+  width: 100%;
 }
 
 .march-cover1 {
-    background-color: #f4f5f6;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 5px;
+  background-color: #f4f5f6;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
 }
 
 .the-cover1 {
-    margin-top: 20px;
-    width: 100%;
-}
-
-.march-cover1 a {
-    color: #000;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .cover-img img {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 .cover-img1 img {
@@ -488,54 +519,38 @@ article h3 {
 }
 
 .cover1-head {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .cover1-f {
-    padding: 4px 7px;
-    background-color: #ff0000;
-    color: #fff;
-    font-weight: bold;
+  padding: 4px 7px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
 }
 
 .cover1-fill,
 .cover1-fill1 {
   position: absolute;
   padding: 4px 7px;
-  color: #ff0000;
+  color: #f00;
   font-size: 18px;
   font-weight: 700;
   background-color: #f4f5f6;
   top: 165px;
 }
 
-.cover2-h a {
-    color: #ff0000;
-    margin-left: 10px;
-    font-weight: bold;
-}
-
 .cover2-h a:hover {
-    color: #ff0000;
+  color: #f00;
 }
 
 .cover-img h5 {
-    margin-top: 0;
-    padding-top: 10px;
-}
-
-.cover-img h5 a, 
-.cover-img2 h3 a {
-    color: #000;
-    font-size: 20px;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
 .cover-img1 h3 {
   margin-top: 10px;
-}
-
-.cover-img1 a {
-  color: #000;
 }
 
 .us-section {
@@ -562,20 +577,6 @@ footer {
 .social-links {
   list-style: none;
   font-size: 24px;
-}
-
-.social-links a,
-.social1 a,
-.social1 li,
-.social2 a,
-.social2 li,
-.footer-up,
-strong {
-  color: rgba(3, 3, 3, 0.6);
-}
-
-.social-links a:hover {
-  color: #3895d3;
 }
 
 hr {
