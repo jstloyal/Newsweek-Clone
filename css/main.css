@@ -514,12 +514,12 @@ article h3 {
   border-bottom: none;
 }
 
-.mini-clear .my-right-flow {
-  width: 65%;
-}
-
 .my-right-flow {
   width: 70%;
+}
+
+.mini-clear .my-right-flow {
+  width: 65%;
 }
 
 .my-sticky {
