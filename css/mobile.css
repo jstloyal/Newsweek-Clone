@@ -106,3 +106,20 @@ span.country i {
 .cover1-fill1 {
   top: 451px;
 }
+
+.social1 a {
+  padding-left: 8px;
+}
+
+.social2 a {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.footer-line {
+  display: none;
+}
+
+.footer-up {
+  margin-top: 0;
+}
