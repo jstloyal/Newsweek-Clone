@@ -49,7 +49,7 @@ span.country i {
 }
 
 .image-a img {
-  height: 378.16px;
+  height: 251.1px;
 }
 
 .article1 {
@@ -69,7 +69,7 @@ span.country i {
 }
 
 .image .img-fluid {
-  height: 421.217px;
+  height: 272px;
 }
 
 .category {
@@ -82,6 +82,10 @@ span.country i {
 
 .float-right {
   width: 85%;
+}
+
+.clearfix .float-head {
+  width: 70%;
 }
 
 .author-img {
