@@ -4,7 +4,6 @@
 
 .nav-header {
   display: none;
-  position: fixed;
 }
 
 .navigation-bar {
@@ -19,13 +18,13 @@
   margin-top: 50px;
 }
 
-/* .my-right-flow {
+.my-right-flow {
   width: 85%;
-} */
+}
 
-.author-vs {
+#author-vs {
   width: 5%;
-  border-radius: 50%;
+  padding: 5px 2px;
 }
 
 .art-tab {
@@ -35,7 +34,7 @@
 }
 
 .my-right-flow1,
-.float-head {
+.clearfix .float-head1 {
   width: 87%;
 }
 
@@ -48,14 +47,14 @@
 }
 
 .cover-img1 img {
-  height: 293.2px;
+  height: 292.98px;
 }
 
 .cover1-fill {
   top: 265px;
 }
 
-.my-right-flow {
+.mini-clear .my-right-flow {
   width: 62%;
 }
 
