@@ -39,11 +39,11 @@
 }
 
 .march-cover img {
-  height: 273px;
+  height: auto;
 }
 
 .cover-img img {
-  height: 205px;
+  height: auto;
 }
 
 .cover-img1 img {
@@ -55,7 +55,7 @@
 }
 
 .mini-clear .my-right-flow {
-  width: 62%;
+  width: 60%;
 }
 
 .cover-img2 .us-now {
