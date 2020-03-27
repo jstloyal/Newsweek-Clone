@@ -31,15 +31,15 @@ body {
   font-size: 12px;
 }
 
+span.country i {
+  display: none;
+}
+
 #nav-flex2 i {
   display: none;
 }
 
 span.country {
-  display: none;
-}
-
-span.country i {
   display: none;
 }
 
@@ -49,7 +49,7 @@ span.country i {
 }
 
 .image-a img {
-  height: 251.1px;
+  height: auto;
 }
 
 .article1 {
@@ -65,15 +65,15 @@ span.country i {
 }
 
 .category-a1 {
-  top: 445px;
+  display: none;
 }
 
 .image .img-fluid {
-  height: 272px;
+  height: auto;
 }
 
 .category {
-  top: 1085px;
+  display: none;
 }
 
 .container-fluid section {
@@ -88,45 +88,72 @@ span.country i {
   width: 70%;
 }
 
-.author-img {
-  top: 3100px;
+.clearfix-side .float-right {
+  width: 75%;
 }
 
-.author-img2 {
-  top: 3350px;
+.clearfix-side1 .float-right {
+  width: 75%;
 }
 
-#author-vs {
-  width: 5%;
+.clearfix-side1 {
+  margin-top: 80px;
+}
+
+.sunky .float-right {
+  width: 70%;
+}
+
+.author1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author1 .rounded-circle {
+  width: 63px;
+  height: 63px;
+}
+
+.author2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author2 .rounded-circle {
+  width: 63px;
+  height: 63px;
 }
 
 .image-culture img {
-  height: 718px;
+  height: auto;
 }
 
 .category-culture {
-  top: 711px;
+  display: none;
 }
 
-.my-right-flow1,
+.my-right-flow1 {
+  width: 75%;
+}
+
 .my-right-flow {
-  width: 85%;
+  width: 70%;
 }
 
 .image .mobile-img,
 .just-image img,
 .editor-cover-pics img,
 .cover-image2 img {
-  height: 479px;
+  height: auto;
 }
 
 .march-cover img {
-  height: 758px;
+  height: auto;
 }
 
 .cover1-fill,
 .cover1-fill1 {
-  top: 451px;
+  display: none;
 }
 
 .social1 a {
