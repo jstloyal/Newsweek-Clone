@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f5f6;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.nav-header {
+  display: none;
+}
+
+.navigation-bar {
+  display: block;
+}
+
+.navigation-logo svg {
+  width: 128px;
+  height: 19.39;
+}
+
+#nav-flex1 button {
+  font-size: 12px;
+}
+
+#nav-flex2 button {
+  padding: 4px 4px;
+  font-size: 12px;
+}
+
+span.country i {
+  display: none;
+}
+
+#nav-flex2 i {
+  display: none;
+}
+
+span.country {
+  display: none;
+}
+
+.container-fluid {
+  width: 100%;
+  background-color: #fff;
+}
+
+.image-a img {
+  height: auto;
+}
+
+.article1 {
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.container-fluid article,
+.container-fluid section {
+  padding: 15px 0;
+}
+
+.category-a1 {
+  display: none;
+}
+
+.image .img-fluid {
+  height: auto;
+}
+
+.category {
+  display: none;
+}
+
+.container-fluid section {
+  margin-bottom: 30px;
+}
+
+.float-right {
+  width: 85%;
+}
+
+.clearfix .float-head {
+  width: 70%;
+}
+
+.clearfix-side .float-right {
+  width: 75%;
+}
+
+.clearfix-side1 .float-right {
+  width: 75%;
+}
+
+.clearfix-side1 {
+  margin-top: 80px;
+}
+
+.sunky .float-right {
+  width: 70%;
+}
+
+.author1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author1 .rounded-circle {
+  width: 63px;
+  height: 63px;
+}
+
+.author2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author2 .rounded-circle {
+  width: 63px;
+  height: 63px;
+}
+
+.image-culture img {
+  height: auto;
+}
+
+.category-culture {
+  display: none;
+}
+
+.my-right-flow1 {
+  width: 75%;
+}
+
+.my-right-flow {
+  width: 70%;
+}
+
+.image .mobile-img,
+.just-image img,
+.editor-cover-pics img,
+.cover-image2 img {
+  height: auto;
+}
+
+.march-cover img {
+  height: auto;
+}
+
+.cover1-fill,
+.cover1-fill1 {
+  display: none;
+}
+
+.social1 a {
+  padding-left: 8px;
+}
+
+.social2 a {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.footer-line {
+  display: none;
+}
+
+.footer-up {
+  margin-top: 0;
+}

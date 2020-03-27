@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-header {
+  display: none;
+}
+
+.navigation-bar {
+  display: block;
+}
+
+.block-title3 {
+  margin-top: 50px;
+}
+
+.upper-area {
+  margin-top: 50px;
+}
+
+.my-right-flow {
+  width: 85%;
+}
+
+#author-vs {
+  width: 5%;
+  padding: 5px 2px;
+}
+
+.art-tab {
+  width: 330px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.my-right-flow1,
+.clearfix .float-head1 {
+  width: 87%;
+}
+
+.march-cover img {
+  height: auto;
+}
+
+.cover-img img {
+  height: auto;
+}
+
+.cover-img1 img {
+  height: 292.98px;
+}
+
+.cover1-fill {
+  top: 265px;
+}
+
+.mini-clear .my-right-flow {
+  width: 60%;
+}
+
+.cover-img2 .us-now {
+  height: 177.33px;
+}
