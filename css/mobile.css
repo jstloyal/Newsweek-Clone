@@ -17,6 +17,24 @@ body {
   display: block;
 }
 
+.navigation-logo svg {
+  width: 128px;
+  height: 19.39;
+}
+
+#nav-flex1 button {
+  font-size: 12px;
+}
+
+#nav-flex2 button {
+  padding: 4px 4px;
+  font-size: 12px;
+}
+
+#nav-flex2 i {
+  display: none;
+}
+
 span.country {
   display: none;
 }
