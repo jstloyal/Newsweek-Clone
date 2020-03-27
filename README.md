@@ -19,7 +19,7 @@ Add some media Query to make it more responsive
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/jstloyal/Newsweek-Clone/af87d4c12962019f5bad410e90175f018e166c66/index.html)
 
 
 ## Getting Started
