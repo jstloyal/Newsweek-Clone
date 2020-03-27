@@ -17,6 +17,14 @@ body {
   display: block;
 }
 
+span.country {
+  display: none;
+}
+
+span.country i {
+  display: none;
+}
+
 .container-fluid {
   width: 100%;
   background-color: #fff;
